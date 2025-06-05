@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #ff9a00;
+  --secondary: #ff8100;
+  --darkOrange: #ff4d00;
+}
+
+html {
+  background-color: var(--darkOrange);
+}
+
+@layer utilities {
+  .img-shadow {
+    filter: drop-shadow(40px 50px 25px #2b1800d4);
+  }
+}
